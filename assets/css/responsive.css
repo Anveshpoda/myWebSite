@@ -33,7 +33,20 @@ Author URI: http://www.xpeedstudio.com
 
 }
 
-
+@media (max-width: 1200px) {
+    .home_text h1 {
+        font-size: 5rem;
+        line-height: 3.5rem;
+    }
+    .home-shadow img {
+        width: 75%;
+        right: 40px;
+    }
+ 
+    .home{
+        height: 850px;
+    }
+}
 
 /* Portrait tablets and small desktops */
 /*@media (max-width: 992px) {
@@ -79,12 +92,19 @@ Author URI: http://www.xpeedstudio.com
         top: -205px;
     }
     .home_text h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 3.5rem;
+    }
+    .home_text{
+        left: 50px;
     }
     .home-shadow img {
         width: 90%;
-        right: 40px;
+        right: 50px;
+    }
+
+    .main_home{
+        margin-right: -50px;
     }
  
     .home{
@@ -135,8 +155,8 @@ Author URI: http://www.xpeedstudio.com
         top: 0; 
     }
     .portfolio_content .head_right, 
-    .team_content .head_right, 
     .choose_item .head_right, 
+    .team_content .head_right, 
     .contact_content .head_right,
     .about_content .head_right {
         top: 0px;
@@ -158,11 +178,11 @@ Author URI: http://www.xpeedstudio.com
     }
 
     .home-shadow img {
-        width: 90%;
+        width: 80%;
     }
 
     .home{
-        height: 850px;
+        height: 950px;
     }
 
     .client_brand ul li {
@@ -183,14 +203,12 @@ Author URI: http://www.xpeedstudio.com
     html {
         font-size: 85%;
     }
-
-    /* .client_brand ul li {
-        margin-left: 1%;
+    .home-shadow img {
+        width: 90%;
     }
-    .client_brand ul li img {
-        width: 70%;
-        margin-bottom: 20px;
-    } */
+    .home{
+        height: 850px;
+    }
 
     .client_brand ul li {
         margin-left: 1%;
@@ -210,27 +228,35 @@ Author URI: http://www.xpeedstudio.com
 
 @media (max-width: 400px) {
     .home{
-        height: 700px;
+        height: 750px;
     }
 
     .client_brand ul li {
-        margin-left: 3%;
+        margin-left: 1%;
         float: left;
         display: inline-block;
     }
     .client_brand ul li img {
-        width: 90%;
+        width: 80%;
         margin-bottom: 30px;
     }
 }
 
 @media (max-width: 320px) {
+    .home{
+        height: 700px;
+    }
+    
+    .home-shadow img {
+        width: 90%;
+    }
     html {
         font-size: 60.5%;
     }
 
     .client_brand ul li {
         margin-left: 2%;
+        float: right;
         display: inline-block;
     }
     .client_brand ul li img {
