@@ -242,7 +242,7 @@ Author URI: http://www.xpeedstudio.com
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
     .home{
         height: 700px;
     }
@@ -264,9 +264,30 @@ Author URI: http://www.xpeedstudio.com
         margin-bottom: 30px;
     }
 
+    h5{
+        font-size: 90%;
+    }
 
+    h6{
+        font-size: 85%;
+    }
+
+    .head_title{
+        display: inline;
+    }
+    .divider{
+        width: 25%
+    }
+    .list_item_text {
+        width: 80%;
+    }
 
 }
 
 
-
+@media (max-width: 309px) {
+    
+    .author_text h1{
+        font-size: 250%;
+    }
+}
