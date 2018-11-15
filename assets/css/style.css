@@ -442,6 +442,11 @@ Extra height css
 .m-l-0{
     margin-left: 0;
 }
+
+.m-l-30 {
+    margin-left: 30px;
+}
+
 .m-b-0{
     margin-bottom: 0;
 }
