@@ -242,9 +242,9 @@ Author URI: http://www.xpeedstudio.com
     }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 385px) {
     .home{
-        height: 700px;
+        height: 750px;
     }
     
     .home-shadow img {
