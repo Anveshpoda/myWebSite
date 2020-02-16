@@ -62,6 +62,9 @@ Author URI: http://www.xpeedstudio.com
     .home{
         height: 900px;
     }
+        .team_content .head_right{
+        left:-800px;
+    }
 }
 
 @media (max-width: 1600px) {
@@ -72,6 +75,9 @@ Author URI: http://www.xpeedstudio.com
     .home-shadow img {
         width: 97%;
         right: 30px;
+    }
+        .team_content .head_right{
+        left:-700px;
     }
 }
 
@@ -86,6 +92,9 @@ Author URI: http://www.xpeedstudio.com
     }
     .home{
         height: 800px;
+    }
+        .team_content .head_right{
+        left:-600px;
     }
 }
 
@@ -103,6 +112,9 @@ Author URI: http://www.xpeedstudio.com
     .home{
         height: 800px;
     }
+     .team_content .head_right{
+        left:-550px;
+    }
 
 }
 
@@ -111,6 +123,11 @@ Author URI: http://www.xpeedstudio.com
         font-size: 3rem;
         line-height: 3.5rem;
     }
+     .team_content .head_right{
+        top: 160px;
+        left:-500px;
+    }
+
 
 }
 
@@ -181,6 +198,10 @@ Author URI: http://www.xpeedstudio.com
  
     .home{
         height: 750px;
+    }
+    
+    .team_content .head_right{
+        left:-450px;
     }
 
     
@@ -268,6 +289,7 @@ Author URI: http://www.xpeedstudio.com
         width: 90%;
         margin-bottom: 20px;
     }
+
 }
 
 @media (max-width: 600px) {
